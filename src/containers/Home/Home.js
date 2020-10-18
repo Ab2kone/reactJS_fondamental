@@ -1,7 +1,7 @@
 import React from "react";
-import 'Home.css';
+import './Home.css';
 
-const Home = {{children}} => (
+const Home = ({children}) => (
     <div className="homepage">
         <div className="tweets">
             {children}
